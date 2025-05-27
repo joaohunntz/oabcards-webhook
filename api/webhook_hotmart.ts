@@ -58,10 +58,12 @@ export default async function handler(req: any, res: any) {
           subject: 'Bem-vindo a Pedagoteca! 🎉',
           html: `
             <h1>Seu acesso está liberado!</h1>
-            <p>Olá, seu plano de acesso a Pedagoteca está pronto!!.</p>
-            <p>Utilize seu email Google para fazer login no nosso aplicativo e não esqueça de fazer a instalação do aplicativo no botão indicado.</p>
+            <p>Olá, sua chave de acesso a Pedagoteca está pronta!!.</p>
+            <p>Sua chave de acesso é: PEDAGOTECA2025</p>
+            <p>Insira seu nome, e-mail utilizado na compra e sua chave de acesso para liberar o acesso ao aplicativo. </p>
+            <p>ANDROID: Procure na sua loja Play Store por Pedagoteca ou clique no link: https://play.google.com/store/apps/details?id=com.pedagoteca.app </p>
+            <p>IPHONE: Para instalar em seu Iphone clique no link e siga os passos: https://pedagoteca-pwa.vercel.app/  </p>
             <p>Qualquer dúvida não hesite em enviar um email para pedagotecabrasil@gmail.com </p>
-            <p><a href="https://pedagoteca-pwa.vercel.app/">Acessar agora</a></p>
           `
         })
       })
